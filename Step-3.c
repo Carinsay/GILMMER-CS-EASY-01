@@ -1,10 +1,14 @@
 #pragma execution_character_set("utf-8")  
 #include <stdio.h>
 
+int square(int a)
+{
+return a*a;}
+
 int var(int a,int b,int c)//计算方差
 {
     int p = (a+b+c)/3;
-    return ((p-a)*(p-a)+(p-b)*(p-b)+(p-c)*(p-c))/3;
+    return (square(p-a)+square(p-b)+square(p-c))/3;
 }
 
 int comrescore(int p,int v)
