@@ -1,6 +1,6 @@
 >
 >
-># CS-EASY-01:computer:
+># CS-EASY-01:
 
 ## Step-1
 
